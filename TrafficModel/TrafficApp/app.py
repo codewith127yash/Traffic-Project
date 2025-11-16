@@ -15,12 +15,12 @@ def load_model_and_encoder():
     global model, label_enc
     
     # Load the trained model from the specific path
-    model_path = r"TrafficModel/TrafficApp/traffic_model.pkl"
+    model_path = r"traffic_model.pkl"
     with open(model_path, 'rb') as file:
         model = pickle.load(file)
     
     # Load the label encoder from the specific path
-    encoder_path = r"TrafficModel/TrafficApp/label_encoder.pkl"
+    encoder_path = r"label_encoder.pkl"
     with open(encoder_path, 'rb') as file:
         label_enc = pickle.load(file)
 
