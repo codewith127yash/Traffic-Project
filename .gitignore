@@ -132,9 +132,6 @@ dmypy.json
 .DS_Store
 
 # Project specific - Model files and data
-*.pkl
-traffic_model.pkl
-label_encoder.pkl
 *.csv
 
 # Qodo
